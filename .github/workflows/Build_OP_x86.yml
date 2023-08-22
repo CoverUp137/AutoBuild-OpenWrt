@@ -31,6 +31,7 @@ jobs:
           /usr/share/dotnet \
           /etc/mysql \
           /etc/php
+         sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/apt/sources.list.d /usr/local/lib/android
         sudo -E apt-get -y purge \
           azure-cli \
           ghc* \
